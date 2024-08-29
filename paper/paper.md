@@ -123,7 +123,7 @@ Some nodes have more than 1 relationship connecting it to other terms; however, 
 
 All the encircled nodes (80 in total) in the NoC are currently part of PBO. The rest (around 170) provide not only a context for the encircled nodes but also complementary information. Fig2 depicts the entire network (due to its complexity and size, it is recommended to instead check the supplementary material to view the details thereof).
 
-![The entire Network of Concepts (NoC) showing on the one hand the nodes and their relationships, and on the other hand, the complexity of the concepts. The NoC currently holds around 250 nodes, 80 thereof are part of the key core terms in PBO. \label{Fig2}](./map_plant_breeding_v5.png)
+![The entire Network of Concepts (NoC) showing on the one hand the nodes and their relationships, and on the other hand, the complexity of the concepts. The NoC currently holds around 250 nodes, 80 thereof are part of the key core terms in PBO. \label{Fig2}](./map_plant_breeding_v5.pdf)
 
 Organizing the concepts in a graph was essential to fulfill one of the aims of this work: categorize the entries in the ontology. 
 
