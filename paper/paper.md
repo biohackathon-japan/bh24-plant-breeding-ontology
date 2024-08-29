@@ -18,6 +18,15 @@ authors:
   - name: Shuichi Kawashima
     orcid: 0000-0001-7883-3756
     affiliation: 4
+  - name: Wasin Poncheewin
+    orcid: 
+    affiliation: 5
+  - name: Nuria Queralt Rosinach
+    orcid: 
+    affiliation: 6
+  - name: Nagano Akio
+    orcid: 
+    affiliation: 7
 affiliations:
   - name: UN - International Computing Center (UNICC)
     index: 1
@@ -27,6 +36,12 @@ affiliations:
     index: 3
   - name: Database Center for Life Science, Joint Support-Center for Data Science Research, Research Organization of Information and Systems
     index: 4
+  - name: National Center for Genetic Engineering and Biotechnology (BIOTEC)
+    index: 5
+  - name: Leiden University Medical Center (LUMC)
+    index: 6
+  - name: PENQE Inc.
+    index: 7
 date: 29 August 2024
 cito-bibliography: paper.bib
 event: BH24JP
