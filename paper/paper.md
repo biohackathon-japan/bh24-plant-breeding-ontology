@@ -162,6 +162,7 @@ All the 80 key terms have a definition and a reference, which links the entry to
 | REF:0000025 | Dictionary of Forestry | http://dictionaryofforestry.org/ |
 | REF:0000026 | The Encyclopedia of Seeds : Science, Technology and Uses | Bewley J, Black M, Halme P. ISBN-13: 9780851997230 (1st Ed) |
 | REF:0000027 | The United Nations Terminology Database (UNTERM) | http://untermportal.un.org/portal/welcome |
+| REF:0000028 | The International Service for the Acquisition of Agri-biotech Applications | https://www.isaaa.org/gmapprovaldatabase/default.asp |
 
 Table: Sources of the definitions for the entries in PBO. The first column provides a unique code used in the glossary to link entry definitions to their source. The second column shows the name of the resource. The third column provides either the URL of the online resource or the book details. 
 
