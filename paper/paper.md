@@ -123,7 +123,7 @@ Some nodes have more than 1 relationship connecting it to other terms; however, 
 
 All the encircled nodes (80 in total) in the NoC are currently part of PBO. The rest (around 170) provide not only a context for the encircled nodes but also complementary information. Fig2 depicts the entire network (due to its complexity and size, it is recommended to instead check the supplementary material to view the details thereof).
 
-![The entire Network of Concepts (NoC) showing on the one hand the nodes and their relationships, and on the other hand, the complexity of the concepts. The NoC currently holds around 250 nodes, 80 thereof are part of the key core terms in PBO -- CHANGE TO map_plant_breeding_v5.pdf. \label{Fig2}](./PBO_NoC_snip.png)
+![The entire Network of Concepts (NoC) showing on the one hand the nodes and their relationships, and on the other hand, the complexity of the concepts. The NoC currently holds around 250 nodes, 80 thereof are part of the key core terms in PBO. \label{Fig2}](./map_plant_breeding_v5.pdf)
 
 Organizing the concepts in a graph was essential to fulfill one of the aims of this work: categorize the entries in the ontology. 
 
@@ -184,7 +184,7 @@ Another motivation for automatizing some parts of the process came from the fact
 
 Relying only on automatic tools could be risky; thus, a manual curation component as part of the process should be still be part of the maintenance process.
 
-![Excel to RDF Conversion Pipeline: Consist on the next steps. First is done a manual review and correction process performed by a person to ensure data accuracy and completeness. Then this file is converted into a data frame using Python or Perl for efficient data manipulation. Followed by an automatic Unique ID Generation, and assignment of IDs to each term in the Excel file to facilitate data integration. Then the Excel file is parsed,  extracting term names, descriptions, synonyms, and relationships to generate an OBO file using Python or Perl. Finally, the OBO file is converted to RDF format using the Perl tool obo2rdf. Future work is planned to do an integration of the converted RDF file into a triple store, enabling data storage, retrieval, and SPARQL query capabilities, to enable the execution of SPARQL queries and foster further exploration and analysis of the converted data CHANGE TO workflow.pdf. \label{Fig3}](./PBO_NoC_snip.png)
+![Excel to RDF Conversion Pipeline: Consist on the next steps. First is done a manual review and correction process performed by a person to ensure data accuracy and completeness. Then this file is converted into a data frame using Python or Perl for efficient data manipulation. Followed by an automatic Unique ID Generation, and assignment of IDs to each term in the Excel file to facilitate data integration. Then the Excel file is parsed,  extracting term names, descriptions, synonyms, and relationships to generate an OBO file using Python or Perl. Finally, the OBO file is converted to RDF format using the Perl tool obo2rdf. Future work is planned to do an integration of the converted RDF file into a triple store, enabling data storage, retrieval, and SPARQL query capabilities, to enable the execution of SPARQL queries and foster further exploration and analysis of the converted data. \label{Fig3}](./workflow.pdf)
 
 ## h) Sample entries
 
