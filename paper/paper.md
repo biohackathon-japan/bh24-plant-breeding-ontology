@@ -35,7 +35,7 @@ affiliations:
     index: 4
   - name: PENQE Inc., Japan
     index: 5
-  - name: Leiden University Medical Center
+  - name: Leiden University Medical Center, The Netherlands
     index: 6
 date: 30 August 2024
 cito-bibliography: paper.bib
@@ -199,7 +199,7 @@ The resulting network of concepts amounts to more than 2000 entries. We expect t
 
 ## Acknowledgements
 
-We would like to thank the fellow participants of the BioHackathon 2023 and 2024 for their collaboration and constructive advice, which greatly influenced our project. We are grateful to the funding bodies of the BioHackathon 2023 and 2024: Database Center for Life Science (DBCLS) and the Japan Science and Technology Agency (JST) Department of the NBDC Program. Special thanks to Nuria Queralt and Maria Gomez for the support developing the queries, translations to Catalan and the original pipeline development.
+We would like to thank the fellow participants of the BioHackathon 2023 and 2024 for their collaboration and constructive advice, which greatly influenced our project. We are grateful to the funding bodies of the BioHackathon 2023 and 2024: Database Center for Life Science (DBCLS) and the Japan Science and Technology Agency (JST) Department of the NBDC Program.
 
 ## References
 
