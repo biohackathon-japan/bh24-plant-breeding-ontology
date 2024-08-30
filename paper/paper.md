@@ -21,6 +21,9 @@ authors:
   - name: Nagano Akio
     orcid: 0009-0004-9646-8878
     affiliation: 5
+  - name: Núria Queralt-Rosinach
+    orcid: 0000-0003-0169-8159
+    affiliation: 6
 affiliations:
   - name: UN - International Computing Center (UNICC), Spain
     index: 1
@@ -32,6 +35,8 @@ affiliations:
     index: 4
   - name: PENQE Inc., Japan
     index: 5
+  - name: Leiden University Medical Center
+    index: 6
 date: 30 August 2024
 cito-bibliography: paper.bib
 event: BH24JP
