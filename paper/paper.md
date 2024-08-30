@@ -164,7 +164,7 @@ All the 80 key terms have a definition and a reference, which links the entry to
 | REF:0000027 | The United Nations Terminology Database (UNTERM) | http://untermportal.un.org/portal/welcome |
 | REF:0000028 | The International Service for the Acquisition of Agri-biotech Applications | https://www.isaaa.org/gmapprovaldatabase/default.asp |
 
-Table: Sources of the definitions for the entries in PBO. The first column provides a unique code used in the glossary to link entry definitions to their source. The second column shows the name of the resource. The third column provides either the URL of the online resource or the book details. 
+Table 1: Sources of the definitions for the entries in PBO. The first column provides a unique code used in the glossary to link entry definitions to their source. The second column shows the name of the resource. The third column provides either the URL of the online resource or the book details. 
 
 ## e) Synonyms and derived terms
 
@@ -188,7 +188,8 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 
 ## h) Sample entries
 
-\label{Table1}](./PBO_sample_entries.pdf)
+[Table2]
+\label{Table2}(./PBO_sample_entries.pdf)
 
 # Results
 
