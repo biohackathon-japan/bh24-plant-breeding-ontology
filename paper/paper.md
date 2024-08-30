@@ -212,12 +212,14 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-select ?s ?label ?altlabel where { 
-    ?s rdf:type owl:Class.
-    ?s rdfs:label ?label .
-    ?s skos:altLabel ?altlabel .
-    FILTER (lang(?altlabel) = "jp" || lang(?altlabel)="fr")
-} ORDER BY ?s 
+select ?s ?label ?altJPlabel ?altFRlabel where { 
+	?s rdf:type owl:Class.
+    	?s rdfs:label ?label .
+    	?s skos:altLabel ?altJPlabel .
+    	?s skos:altLabel ?altFRlabel .
+    	FILTER (lang(?altJPlabel) = "jp" && lang(?altFRlabel)="fr")
+} ORDER BY ?s
+
 ```
 
 Example query 2: retrieve the all the synonyms of a given term
