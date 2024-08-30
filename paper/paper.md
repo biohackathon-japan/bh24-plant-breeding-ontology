@@ -12,37 +12,27 @@ authors:
   - name: Hiromi Kajiya-Kanegae
     orcid: 0000-0002-5719-7559
     affiliation: 2
-  - name: Maria Gomez
-    orcid: 0000-0003-2549-5807
-    affiliation: 3
   - name: Shuichi Kawashima
     orcid: 0000-0001-7883-3756
-    affiliation: 4
+    affiliation: 3
   - name: Wasin Poncheewin
     orcid: 0000-0003-2267-6872
-    affiliation: 5
-  - name: Nuria Queralt Rosinach
-    orcid: 
-    affiliation: 6
+    affiliation: 4
   - name: Nagano Akio
     orcid: 
-    affiliation: 7
+    affiliation: 5
 affiliations:
   - name: UN - International Computing Center (UNICC)
     index: 1
   - name: Research Center for Agricultural Information Technology (NARO)
     index: 2
-  - name: Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST)
-    index: 3
   - name: Database Center for Life Science, Joint Support-Center for Data Science Research, Research Organization of Information and Systems
-    index: 4
+    index: 3
   - name: National Center for Genetic Engineering and Biotechnology (BIOTEC), National Science and Technology Development Agency (NSTDA), Khlong Luang 10120, Thailand
-    index: 5
-  - name: Leiden University Medical Center (LUMC)
-    index: 6
+    index: 4
   - name: PENQE Inc.
-    index: 7
-date: 29 August 2024
+    index: 5
+date: 30 August 2024
 cito-bibliography: paper.bib
 event: BH24JP
 biohackathon_name: "BioHackathon Japan 2024"
@@ -214,6 +204,6 @@ The resulting network of concepts amounts to more than 2000 entries. We expect t
 
 ## Acknowledgements
 
-We would like to thank the fellow participants of the BioHackathon 2023 and 2024 for their collaboration and constructive advice, which greatly influenced our project. We are grateful to the funding bodies of the BioHackathon 2023 and 2024: Database Center for Life Science (DBCLS) and the Japan Science and Technology Agency (JST) Department of the NBDC Program.
+We would like to thank the fellow participants of the BioHackathon 2023 and 2024 for their collaboration and constructive advice, which greatly influenced our project. We are grateful to the funding bodies of the BioHackathon 2023 and 2024: Database Center for Life Science (DBCLS) and the Japan Science and Technology Agency (JST) Department of the NBDC Program. Special thanks to Nuria Queralt and Maria Gomez for the support developing the queries and the original pipeline.
 
 ## References
