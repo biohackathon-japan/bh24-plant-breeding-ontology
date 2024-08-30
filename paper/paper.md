@@ -19,7 +19,7 @@ authors:
     orcid: 0000-0001-7883-3756
     affiliation: 4
   - name: Wasin Poncheewin
-    orcid: 
+    orcid: 0000-0003-2267-6872
     affiliation: 5
   - name: Nuria Queralt Rosinach
     orcid: 
@@ -36,7 +36,7 @@ affiliations:
     index: 3
   - name: Database Center for Life Science, Joint Support-Center for Data Science Research, Research Organization of Information and Systems
     index: 4
-  - name: National Center for Genetic Engineering and Biotechnology (BIOTEC)
+  - name: National Center for Genetic Engineering and Biotechnology (BIOTEC), National Science and Technology Development Agency (NSTDA), Khlong Luang 10120, Thailand
     index: 5
   - name: Leiden University Medical Center (LUMC)
     index: 6
