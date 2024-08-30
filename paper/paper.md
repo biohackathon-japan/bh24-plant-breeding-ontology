@@ -189,7 +189,27 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 
 ## h) Sample query
 
+Importantly, each query is well annotated with natural language to enable further exploitation for example by LLMs.
+
 ![Example of a SPARQL Query and Interface Using GraphDB. This figure illustrates the SPARQL query editor and results interface of a SPARQL endpoint within GraphDB. The displayed query retrieves RDF classes with their labels and alternative labels, filtering for languages "jp" (Japanese) or "fr" (French). The query results are shown in tabular form below, listing unique identifiers, labels, and alternative labels for terms. This serves as an example of how queries can be constructed and executed in GraphDB. Additional example queries can be found in the appendix. \label{Fig5}](./sample_queries.png)
+
+## i) ShEx shapes for data validation and schema exchange
+
+We developed ShEx shapes for data validation and schema exchange using the PBO schema ShEx Shape, but also for some queries for quality data retrieval.
+
+![PBO schema ShEx shape](./pbo_schema.shex)
+
+![Visualization of the PBO schema expressed in ShEx](./pbo_schema.svg)
+
+![Query 1 ShEx shape](./q1.1.shex)
+
+![Query 1 ShEx shape visualization](./q1.1_shex.svg)
+
+![Query 6 ShEx shape](./q6.1.shex)
+
+![Query 6 ShEx shape visualization](./q6.1_shex.svg)
+
+
 
 # Results
 
