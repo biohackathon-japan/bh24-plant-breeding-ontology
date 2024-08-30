@@ -186,11 +186,7 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 
 ## i) Sample queries
 
-(Nuria + Wasin)
-
-(2-3 examples and ShEx)
-
-(Image of the RDF data model)
+Wasin: 2-3 SPARQL examples
 
 # Results
 
