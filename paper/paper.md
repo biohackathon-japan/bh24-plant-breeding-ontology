@@ -180,7 +180,7 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 
 ## h) Sample queries
 
-Wasin: 2-3 SPARQL examples
+![Example of a SPARQL Query and Interface Using GraphDB. This figure illustrates the SPARQL query editor and results interface of a SPARQL endpoint within GraphDB. The displayed query retrieves RDF classes with their labels and alternative labels, filtering for languages "jp" (Japanese) or "fr" (French). The query results are shown in tabular form below, listing unique identifiers, labels, and alternative labels for terms. This serves as an example of how queries can be constructed and executed in GraphDB. Additional example queries can be found in the appendix. \label{Fig5}](./sample_queries.png)
 
 # Results
 
