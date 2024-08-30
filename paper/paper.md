@@ -201,8 +201,6 @@ The resulting network of concepts amounts to more than 2000 entries. We expect t
 
 We would like to thank the fellow participants of the BioHackathon 2023 and 2024 for their collaboration and constructive advice, which greatly influenced our project. We are grateful to the funding bodies of the BioHackathon 2023 and 2024: Database Center for Life Science (DBCLS) and the Japan Science and Technology Agency (JST) Department of the NBDC Program.
 
-## References
-
 ## Appendix
 
 Example query 1: retrieve the terms with a translation in japanese AND french
