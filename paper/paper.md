@@ -203,7 +203,7 @@ We would like to thank the fellow participants of the BioHackathon 2023 and 2024
 
 ## Authors’ Contributions
 
-EA has conceived PBO, developed its foundation, and led the project. EA has wrote the manuscript. HKK has added new entries into PBO as well as provided translations in Japanese. SK has optimised the RDF transformation. WP has improved the pipeline, developed queries and contributed to the manuscript. NA has created the logo for PBO. NQR has added transaltions in Catalan.
+EA has conceived PBO, developed its foundation, wrote most of the manuscript, and led the project. HKK has added new entries into PBO, provided translations in Japanese, contributed to the manuscript. SK has optimised the RDF transformation, reviewed the ontology, and added translations in Japanese. WP has improved the pipeline, developed queries, added translations in Thai, and contributed to the manuscript. NA has created the logo for PBO. NQR has added translations in Catalan.
 
 ## Appendix
 
