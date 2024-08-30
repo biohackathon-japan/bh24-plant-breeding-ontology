@@ -172,13 +172,17 @@ Systematic searches in dictionaries and online resources were manually performed
 
 ## f) A sample context
 
-Sentences showing the usage of each term has been collected (@25211109,@23107918,@25295051,@25286768,@23107918,@25869921,@25804198,@22928630,@25062415,@25736208,@25326615,@25633099,@25904004,@25416265,@24313845,@25877517,@23328861,@24755611,@25740150,@25835560,@25769309,@25142874,@25904004,@25874132,@18943874,@25163935,@25740150,@20069284,@25829378,@25795171,@24851925,@25814999,@23982592,@25197722,@25736208,@25515696,@25575836,@22139140,@25852713,@25575836,@25799495,@18726413,@21113703,@18945041,@25769309,@18944502,@24916675,@24728072,@25798140,@25612428,@25860116,@25814999,@24795339,@25039173,@25855139,@25795170,@24469473,@25904004,@25300252,@11118756,@25874132,@24330272,@25480961,@25773315,@25894579,@25781987,@24812108,@23780585,@16102947,@25769309,@25852713,@25739089,@18811304,@25904004,@23074914,@19452039,@25855139,@23852378,@24798648,@24975385). Each sentence has been carefully reviewed so that it belongs to the main domain: plant breeding. This material is available in the original excel file used to compile the core concepts.
+Sentences showing the usage of each term has been collected as shown in the examples below:
+
+(@25211109,@23107918,@25295051,@25286768,@23107918,@25869921,@25804198,@22928630,@25062415,@25736208,@25326615,@25633099,@25904004,@25416265,@24313845,@25877517,@23328861,@24755611,@25740150,@25835560,@25769309,@25142874,@25904004,@25874132,@18943874,@25163935,@25740150,@20069284,@25829378,@25795171,@24851925,@25814999,@23982592,@25197722,@25736208,@25515696,@25575836,@22139140,@25852713,@25575836,@25799495,@18726413,@21113703,@18945041,@25769309,@18944502,@24916675,@24728072,@25798140,@25612428,@25860116,@25814999,@24795339,@25039173,@25855139,@25795170,@24469473,@25904004,@25300252,@11118756,@25874132,@24330272,@25480961,@25773315,@25894579,@25781987,@24812108,@23780585,@16102947,@25769309,@25852713,@25739089,@18811304,@25904004,@23074914,@19452039,@25855139,@23852378,@24798648,@24975385). 
+
+Each sentence has been carefully reviewed so that it belongs to the domain of interest: plant breeding. This material is available in the original excel file used to compile the core concepts.
 
 ## g) A manual compilation empowered by automatic retrieval 
 
 All terms, their definitions, their synonyms an derived terms were manually collected. The network of concepts has also been manually built (terms plus relationships). During the entire process, various validations steps were included to ensure a high quality of the resulting product (see Fig3). Most of those validation steps were automatically done (computationally developed) to deal with aspects such a term duplication, consistency of identifiers, generation of reports based on the master data file, uniformity, ordering, formatting, etc.
 
-Automatic tools (not yet publically available) were developed to support the compilation of the context samples and collocations. Also, those tools supported the automatic retrieval (from sources such as PubMed, WordNet, IATE, dict.org) of terms as well as the quality checks (e.g. consistency).
+Automatic tools (not yet publically available) were developed to support the compilation of the context samples and collocations. Also, those tools supported the automatic retrieval (from sources such as PubMed, WordNet, IATE, dict.org) of terms as well as the quality checks (such as consistency of the spelling).
 
 Another motivation for automatizing some parts of the process came from the fact that this ontology is expected to continue growing. Therefore, even thought it has taken a lot of time to develop such automatized solutions, future improvements will be facilitated. On the one hand, a more advanced natural language processing could improve the glossary building process.
 
