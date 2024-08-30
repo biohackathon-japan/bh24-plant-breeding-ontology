@@ -198,3 +198,81 @@ We would like to thank the fellow participants of the BioHackathon 2023 and 2024
 
 ## References
 
+## Appendix
+
+Example query 1: retrieve the terms with a translation in japanese AND french
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+select ?s ?label ?altlabel where { 
+    ?s rdf:type owl:Class.
+    ?s rdfs:label ?label .
+    ?s skos:altLabel ?altlabel .
+    FILTER (lang(?altlabel) = "jp" || lang(?altlabel)="fr")
+} ORDER BY ?s 
+```
+
+Example query 2: retrieve the all the synonyms of a given term
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+select ?altlabel where { 
+    ?s rdf:type owl:Class.
+    ?s rdfs:label ?label .
+    FILTER (?label = "emasculation"@en)
+    ?s skos:altLabel ?altlabel.
+}
+```
+
+Example query 3: retrieve the list of terms related to ‘molecular marker’
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sio: <http://semanticscience.org/resource/>
+select ?relate_to_label where { 
+    ?s rdf:type owl:Class.
+    ?s rdfs:label ?label .
+    FILTER (?label = "molecular marker"@en)
+    ?s sio:SIO000001 ?related_to .
+    ?related_to rdfs:label ?relate_to_label .
+}
+```
+
+Example query 4: retrieve the “child” terms of the term “ploidy”
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sio: <http://semanticscience.org/resource/>
+select ?p ?plabel where { 
+    ?s rdf:type owl:Class.
+    ?s rdfs:label ?label .
+    FILTER (?label = "ploidy"@en)
+    ?p sio:SIO000001 ?s.
+    ?p rdfs:label ?plabel.
+}
+```
+
+Example query 5: retrieve the definition of ‘genotyping’
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+select * where { 
+	?s rdf:type owl:Class.
+    ?s rdfs:label ?label .
+    FILTER (?label = "genotyping"@en)
+    ?s skos:definition ?def.
+}
+```
