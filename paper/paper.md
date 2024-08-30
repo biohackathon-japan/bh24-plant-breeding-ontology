@@ -5,6 +5,10 @@ tags:
   - Linked Data
   - Plant Breeding
   - Bio-Ontology
+  - Data Integration
+  - Semantic Web
+  - Data Interoperability
+  - Multilingual Ontology
 authors:
   - name: Erick Antezana
     orcid: 0000-0002-2497-8236
