@@ -189,7 +189,8 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 ## h) Sample entries
 
 [Table2]
-\label{Table2}(./PBO_sample_entries.pdf)
+
+![A small section of the entire Network of Concepts (NoC) showing a few nodes (e.g. plant variety) and their relationships. Solid arrows denote a hierarchical relationship. Dotted lines denote a non-hierarchical relationship. Encircled terms are part of PLABREGLO. \label{Table2}](./PBO_sample_entries.pdf)
 
 # Results
 
