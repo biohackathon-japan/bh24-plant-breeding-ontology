@@ -188,7 +188,7 @@ Another motivation for automatizing some parts of the process came from the fact
 
 Relying only on automatic tools could be risky; thus, a manual curation component as part of the process should be still be part of the maintenance process.
 
-![Excel to RDF Conversion Pipeline: Consist on the next steps. First is done a manual review and correction process performed by a person to ensure data accuracy and completeness. Then this file is converted into a data frame using Python or Perl for efficient data manipulation. Followed by an automatic Unique ID Generation, and assignment of IDs to each term in the Excel file to facilitate data integration. Then the Excel file is parsed,  extracting term names, descriptions, synonyms, and relationships to generate an OBO file using Python or Perl. Finally, the OBO file is converted to RDF format using the Perl tool obo2rdf. Future work is planned to do an integration of the converted RDF file into a triple store, enabling data storage, retrieval, and SPARQL query capabilities, to enable the execution of SPARQL queries and foster further exploration and analysis of the converted data. \label{Fig3}](./workflow.pdf)
+![Workflow for Data Transformation and Integration into Public Ontology Databases. The process begins with manual curation of data, which is stored in an Excel file. A Python parser converts the Excel data into an OBO (Open Biological and Biomedical Ontology) format. A Ruby parser then converts the OBO file into an RDF (Resource Description Framework) file. The RDF file is uploaded to a SPARQL endpoint and integrated into public ontology databases such as BioPortal and AgroPortal, facilitating data accessibility and interoperability. \label{Fig3}](./workflow.pdf)
 
 ## h) Sample entries
 
