@@ -58,7 +58,7 @@ authors_short: Antezana E. \emph{et al.}
 
 # Abstract
 
-The need of standardizing the language used within a community has been recognized as one of the major components to enable a better integration of data as well as their further analysis. The plant breeding community makes use of a very specialized language, which has been evolving according to the new technologies and needs of their final users (e.g. farmers). That community is disparate all over the world. Therefore, a translation of the most common used terms has always been a key asset to accomplish their objectives as well as the ones of their collaborators. Here, we present PBO (Plant Breeding Ontology), an ontology for the plant breeding community which captures core 80 terms in 6 different languages: English (main language), Spanish, French, Dutch, German, Japanese, Catalan and Thai, as well as their definitions, synonyms, derived terms and samples of their usage. PBO has been built partially manually and semiautomatically.
+The need of standardizing the language used within a community has been recognized as one of the major components to enable a better integration of data as well as their further analysis. The plant breeding community makes use of a very specialized language, which has been evolving according to the new technologies and needs of their final users (e.g. farmers). That community is disparate all over the world. Therefore, a translation of the most common used terms has always been a key asset to accomplish their objectives as well as the ones of their collaborators. Here, we present PBO (Plant Breeding Ontology), an ontology for the plant breeding community which captures more than 2200 entries where 80 represent the core terms. PBO has translations in 8 different languages: English (main language), Spanish, French, Dutch, German, Japanese, Catalan and Thai, as well as their definitions, synonyms, derived terms and samples of their usage. PBO has been built partially manually and semiautomatically.
 
 # Introduction
 
@@ -123,7 +123,7 @@ Some nodes have more than 1 relationship connecting it to other terms; however, 
 
 All the encircled nodes (80 in total) in the NoC are currently part of PBO. The rest (around 170) provide not only a context for the encircled nodes but also complementary information. Fig2 depicts the entire network (due to its complexity and size, it is recommended to instead check the supplementary material to view the details thereof).
 
-![The entire Network of Concepts (NoC) showing on the one hand the nodes and their relationships, and on the other hand, the complexity of the concepts. The NoC currently holds around 250 nodes, 80 thereof are part of the key core terms in PBO. \label{Fig2}](./map_plant_breeding_v5.pdf)
+![The entire Network of Concepts (NoC) showing on the one hand the nodes and their relationships, and on the other hand, the complexity of the concepts. The NoC currently holds around 2200 nodes, 80 thereof are part of the key core terms in PBO. \label{Fig2}](./map_plant_breeding_v5.pdf)
 
 Organizing the concepts in a graph was essential to fulfill one of the aims of this work: categorize the entries in the ontology. 
 
@@ -131,7 +131,7 @@ Organizing the concepts in a graph was essential to fulfill one of the aims of t
 
 Several resources (see Table 1) were used to gather the definitions corresponding to the entries in PBO. Most of the ontology term definitions were collected from online resources, with the exception of a few hard-copy resources.
 
-All the 80 key terms have a definition and a reference, which links the entry to the source of the definition itself. None of the definitions was adapted (i.e. changed).
+All the 80 core terms have a definition and a reference, which links the entry to the source of the definition itself. None of the definitions was adapted (i.e. changed).
 
 | Ref. Code | Source Name | Details |
 | -------- | -------- | -------- |
@@ -168,7 +168,7 @@ Table 1: Sources of the definitions for the entries in PBO. The first column pro
 
 ## e) Synonyms and derived terms
 
-Systematic searches in dictionaries and online resources were manually performed in order to look up for synonyms as well as derived terms for each one of the 80 selected key entries. PBO has synonyms for more than 30 entries and derivatives for 12 entries.
+Systematic searches in dictionaries and online resources were manually performed in order to look up for synonyms as well as derived terms for a selected subset of PBO. It currently has synonyms for more than 30 entries and derivatives for 12 entries.
 
 ## f) A sample context
 
@@ -200,9 +200,9 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 
 # Results
 
-1. The 80 core records capture the entries currently held in PBO. All entries have an ID of the form: PBO:nnnnnnn, where nnnnnnn corresponds to a unique number. It is important to note that even though almost all entries are nouns, most of them can also be employed as adjectives with no modification (e.g. inbreeding, mutant). Moreover, some entries may also be used as verbs (e.g. to plant, to phenotype). A separate property captures the term translations in five languages (Spanish, French, Dutch, German, and Japanese) for each record. Each one of the 80 core records has a definition as well as a reference, which corresponds to the source from where the definition was taken (see Table 1). Some entries include synonyms as well as acronyms (which for the sake of simplicity are captured within the same group). Finally, each entry provides a sample context text, where the term (or an inflection thereof) is employed (see excel file).
+1. More than 2200 records capture the entries currently held in PBO, where 80 represent the core records. All entries have an ID of the form: PBO:nnnnnnn, where nnnnnnn corresponds to a unique number. It is important to note that even though almost all entries are nouns, most of them can also be employed as adjectives with no modification (e.g. inbreeding, mutant). Moreover, some entries may also be used as verbs (e.g. to plant, to phenotype). A separate property captures the term translations in five languages (Spanish, French, Dutch, German, and Japanese) for each record. Each one of the selected 80 core records has a definition as well as a reference, which corresponds to the source from where the definition was taken (see Table 1). Some entries include synonyms as well as acronyms (which for the sake of simplicity are captured within the same group). Finally, each entry provides a sample context text, where the term (or an inflection thereof) is employed (see excel file).
 
-2. An ontology, named PBO, holding 80 core entries has been produced. This ontology aims at filling a gap in the plant breeding community in a way that the terminology could be findable, accessible, interoperable, and reusable (F.A.I.R). PBO is not intended to compete with ontologies from authoritative bodies or similar resources (e.g., Food and Agriculture Organization [@AGROVOC], Inter-Active Terminology for Europe [@IATE], Crop Ontology [@Shrestha2012], Agronomy Ontology [@Aubert2017]); on the contrary, it aims at complementing them by providing specially a categorical view of the terminology, which could be used in various languages and enable a better communication among the actors within the plant breeding community. PBO is currently available in OBO and RDF formats - an excel dump is as well available on demand -- so that it could be easily reused, extended and shared. Building this ontology with the aid of specialized computational tools not only fostered the development of the terminological resources but also contributed to their quality and future enrichement.
+2. An ontology, named PBO, holding around 2200 entries has been produced. This ontology aims at filling a gap in the plant breeding community in a way that the terminology could be findable, accessible, interoperable, and reusable (F.A.I.R). PBO is not intended to compete with ontologies from authoritative bodies or similar resources (e.g., Food and Agriculture Organization [@AGROVOC], Inter-Active Terminology for Europe [@IATE], Crop Ontology [@Shrestha2012], Agronomy Ontology [@Aubert2017]); on the contrary, it aims at complementing them by providing specially a categorical view of the terminology, which could be used in various languages and enable a better communication among the relevant actors within the plant breeding community. PBO is currently available in OBO and RDF formats - an excel dump is as well available on demand -- so that it could be easily reused, extended and shared. Building this ontology with the aid of specialized computational tools not only fostered the development of the terminological resources but also contributed to their quality and future enrichement.
 
 # Future work
 
