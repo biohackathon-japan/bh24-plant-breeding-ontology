@@ -283,3 +283,6 @@ select * where {
     ?s skos:definition ?def.
 }
 ```
+## Authors’ Contributions
+
+EA has conceived PBO, developed its foundation, and led the project. EA has wrote the manuscript. HKK has added new entries into PBO as well as provided translations in Japanese. SK has optimised the RDF transformation. WP has improved the pipeline, developed queries and contributed to the manuscript. NA has created the logo for PBO. NQR has added transaltions in Catalan. 
