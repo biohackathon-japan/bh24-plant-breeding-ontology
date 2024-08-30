@@ -197,18 +197,6 @@ Importantly, each query is well annotated with natural language to enable furthe
 
 We developed ShEx shapes for data validation and schema exchange using the PBO schema ShEx Shape, but also for some queries for quality data retrieval.
 
-![PBO schema ShEx shape](./pbo_schema.shex)
-
-![Visualization of the PBO schema expressed in ShEx](./pbo_schema.svg)
-
-![Query 1 ShEx shape](./q1.1.shex)
-
-![Query 1 ShEx shape visualization](./q1.1_shex.svg)
-
-![Query 6 ShEx shape](./q6.1.shex)
-
-![Query 6 ShEx shape visualization](./q6.1_shex.svg)
-
 
 
 # Results
@@ -227,7 +215,7 @@ We would like to thank the fellow participants of the BioHackathon 2023 and 2024
 
 ## Authors’ Contributions
 
-EA has conceived PBO, developed its foundation, wrote most of the manuscript, and led the project. HKK has added new entries into PBO, curated the ontology, provided translations in Japanese, and contributed to the manuscript. SK has optimised the RDF transformation, reviewed the ontology, and added translations in Japanese. WP has improved the pipeline, developed queries, added translations in Thai, and contributed to the manuscript. NA has created the logo for PBO. NQR has added translations in Catalan.
+EA has conceived PBO, developed its foundation, wrote most of the manuscript, and led the project. HKK has added new entries into PBO, curated the ontology, provided translations in Japanese, and contributed to the manuscript. SK has optimised the RDF transformation, reviewed the ontology, and added translations in Japanese. WP has improved the pipeline, developed queries, added translations in Thai, and contributed to the manuscript. NA has created the logo for PBO. NQR has added translations in Catalan and developed ShEx shapes.
 
 ## Appendix
 
