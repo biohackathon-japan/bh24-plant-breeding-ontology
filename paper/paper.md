@@ -19,18 +19,18 @@ authors:
     orcid: 0000-0003-2267-6872
     affiliation: 4
   - name: Nagano Akio
-    orcid: 
+    orcid: 0009-0004-9646-8878
     affiliation: 5
 affiliations:
-  - name: UN - International Computing Center (UNICC)
+  - name: UN - International Computing Center (UNICC), Spain
     index: 1
-  - name: Research Center for Agricultural Information Technology (NARO)
+  - name: Research Center for Agricultural Information Technology (NARO), Japan
     index: 2
-  - name: Database Center for Life Science, Joint Support-Center for Data Science Research, Research Organization of Information and Systems
+  - name: Database Center for Life Science, Joint Support-Center for Data Science Research, Research Organization of Information and Systems, Japan
     index: 3
   - name: National Center for Genetic Engineering and Biotechnology (BIOTEC), National Science and Technology Development Agency (NSTDA), Khlong Luang 10120, Thailand
     index: 4
-  - name: PENQE Inc.
+  - name: PENQE Inc., Japan
     index: 5
 date: 30 August 2024
 cito-bibliography: paper.bib
@@ -160,15 +160,9 @@ Table 1: Sources of the definitions for the entries in PBO. The first column pro
 
 Systematic searches in dictionaries and online resources were manually performed in order to look up for synonyms as well as derived terms for a selected subset of PBO. It currently has synonyms for more than 30 entries and derivatives for 12 entries.
 
-## f) A sample context
-
-Sentences showing the usage of each term has been collected as shown in the examples below:
-
-(@25211109,@23107918,@25295051,@25286768,@23107918,@25869921,@25804198,@22928630,@25062415,@25736208,@25326615,@25633099,@25904004,@25416265,@24313845,@25877517,@23328861,@24755611,@25740150,@25835560,@25769309,@25142874,@25904004,@25874132,@18943874,@25163935,@25740150,@20069284,@25829378,@25795171,@24851925,@25814999,@23982592,@25197722,@25736208,@25515696,@25575836,@22139140,@25852713,@25575836,@25799495,@18726413,@21113703,@18945041,@25769309,@18944502,@24916675,@24728072,@25798140,@25612428,@25860116,@25814999,@24795339,@25039173,@25855139,@25795170,@24469473,@25904004,@25300252,@11118756,@25874132,@24330272,@25480961,@25773315,@25894579,@25781987,@24812108,@23780585,@16102947,@25769309,@25852713,@25739089,@18811304,@25904004,@23074914,@19452039,@25855139,@23852378,@24798648,@24975385). 
-
 Each sentence has been carefully reviewed so that it belongs to the domain of interest: plant breeding. This material is available in the original excel file used to compile the core concepts.
 
-## g) A manual compilation empowered by automatic retrieval 
+## f) A manual compilation empowered by automatic retrieval 
 
 All terms, their definitions, their synonyms an derived terms were manually collected. The network of concepts has also been manually built (terms plus relationships). During the entire process, various validations steps were included to ensure a high quality of the resulting product (see Fig3). Most of those validation steps were automatically done (computationally developed) to deal with aspects such a term duplication, consistency of identifiers, generation of reports based on the master data file, uniformity, ordering, formatting, etc.
 
@@ -180,11 +174,11 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 
 ![Workflow for Data Transformation and Integration into Public Ontology Databases. The process begins with manual curation of data, which is stored in an Excel file. A Python parser converts the Excel data into an OBO (Open Biological and Biomedical Ontology) format. A Ruby parser then converts the OBO file into an RDF (Resource Description Framework) file. The RDF file is uploaded to a SPARQL endpoint and integrated into public ontology databases such as BioPortal and AgroPortal, facilitating data accessibility and interoperability. \label{Fig3}](./workflow.pdf)
 
-## h) Sample entries
+## g) Sample entries
 
 ![Three sample entries are shown along with their corresponging translations, definitions, and synonyms. \label{Fig4}](./PBO_sample_entries.png)
 
-## i) Sample queries
+## h) Sample queries
 
 Wasin: 2-3 SPARQL examples
 
@@ -200,6 +194,6 @@ The resulting network of concepts amounts to more than 2000 entries. We expect t
 
 ## Acknowledgements
 
-We would like to thank the fellow participants of the BioHackathon 2023 and 2024 for their collaboration and constructive advice, which greatly influenced our project. We are grateful to the funding bodies of the BioHackathon 2023 and 2024: Database Center for Life Science (DBCLS) and the Japan Science and Technology Agency (JST) Department of the NBDC Program. Special thanks to Nuria Queralt and Maria Gomez for the support developing the queries and the original pipeline.
+We would like to thank the fellow participants of the BioHackathon 2023 and 2024 for their collaboration and constructive advice, which greatly influenced our project. We are grateful to the funding bodies of the BioHackathon 2023 and 2024: Database Center for Life Science (DBCLS) and the Japan Science and Technology Agency (JST) Department of the NBDC Program. Special thanks to Nuria Queralt and Maria Gomez for the support developing the queries, translations to Catalan and the original pipeline development.
 
 ## References
