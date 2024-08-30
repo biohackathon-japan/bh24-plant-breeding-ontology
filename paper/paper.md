@@ -190,6 +190,14 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 
 ![Three sample entries are shown along with their corresponging translations, definitions, and synonyms. \label{Fig4}](./PBO_sample_entries.png)
 
+## i) Sample queries
+
+(Nuria + Wasin)
+
+(2-3 examples and ShEx)
+
+(Image of the RDF data model)
+
 # Results
 
 1. The 80 core records capture the entries currently held in PBO. All entries have an ID of the form: PBO:nnnnnnn, where nnnnnnn corresponds to a unique number. It is important to note that even though almost all entries are nouns, most of them can also be employed as adjectives with no modification (e.g. inbreeding, mutant). Moreover, some entries may also be used as verbs (e.g. to plant, to phenotype). A separate property captures the term translations in five languages (Spanish, French, Dutch, German, and Japanese) for each record. Each one of the 80 core records has a definition as well as a reference, which corresponds to the source from where the definition was taken (see Table 1). Some entries include synonyms as well as acronyms (which for the sake of simplicity are captured within the same group). Finally, each entry provides a sample context text, where the term (or an inflection thereof) is employed (see excel file).
