@@ -197,11 +197,11 @@ Importantly, each query is well annotated with natural language to enable furthe
 
 We have developed ShEx shapes for data validation and schema exchange using the PBO schema ShEx Shape, but also for some queries for quality data retrieval.
 
-![Visualization of the PBO schema expressed in ShEx](./pbo_schema.svg)
+![Visualization of the PBO schema expressed in ShEx](./pbo_schema.png)
 
-![Query 1 ShEx shape visualization](./q1.1_shex.svg)
+![Query 1 ShEx shape visualization](./q1.1_shex.png)
 
-![Query 6 ShEx shape visualization](./q6.1_shex.svg)
+![Query 6 ShEx shape visualization](./q6.1_shex.png)
 
 # Results
 
