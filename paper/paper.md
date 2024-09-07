@@ -9,6 +9,7 @@ tags:
   - Semantic Web
   - Data Interoperability
   - Multilingual Ontology
+  - Data Standarization
 authors:
   - name: Erick Antezana
     orcid: 0000-0002-2497-8236
